@@ -9,6 +9,16 @@ Each issue is documented with:
 
 ---
 
+## PC Randomly Turning OFF (X670E Hero Motherboard)
+**The Issue:**
+PC would randomly turn off depsite being stable in all benchmarks and various testing mediums, absolute insanity
+
+**Troubleshooting:**
+Everything under the sun, ran every stability test, swapped all sorts of base hardware such as ram, reinstalled windows etc
+
+**Solution:**
+Determined the X670E Hero I had was defective and bought a 870E Hero (Would of got the MSI Carbon but sold out ._.), new motherboard works as expected no crashes
+
 ## Audio Cutting Out During Gaming
 **The Issue:**
 Random audio dropouts during gaming sessions, lasting 1-2 seconds. No error messages in Windows, just sudden silence followed by audio resuming.
