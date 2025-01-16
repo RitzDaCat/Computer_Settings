@@ -8,6 +8,18 @@ Each issue is documented with:
 - Additional context when relevant
 
 ---
+## USB Overvoltage Startup Message (X670E Hero Motherboard)
+**The Issue:**
+X670E Hero would go to boot and I would have a message about USB overvoltage until I reset the bios, message was persistant even with all usbs removed and even the
+front of the computer case disconnected
+
+**Troubleshooting:**
+Everything under the sun, ran every stability test, swapped all sorts of base hardware such as ram, reinstalled windows etc
+
+**Solution:**
+Determined the X670E Hero I had was defective and bought a 870E Hero (Would of got the MSI Carbon but sold out ._.), new motherboard works as expected no USB overvoltage messages
+
+
 
 ## PC Randomly Turning OFF (X670E Hero Motherboard)
 **The Issue:**
