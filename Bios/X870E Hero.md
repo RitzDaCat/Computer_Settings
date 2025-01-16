@@ -21,7 +21,7 @@
 - Turbo Game Mode: Disabled
 - DRAM Timing Control: Refer to /Memory/
 
-### Precision Boost Overdrive
+### Extreme Tweaker -> Precision Boost Overdrive
 - Prochot VRM Throttling: Auto
 - Peak Current Control: Auto
 - Medium Load Boostit: Enabled
@@ -37,3 +37,27 @@
 - Curve Shaper: Auto (This is pretty powerful and if im doing ECLK you can do some pretty awesome tuning)
 - CO Load Guard: Auto
 
+### Advanced
+### Advanced -> Trusted Computing
+- Security Device Support: Disabled
+- Disable Block Sid: Disabled
+### Advanced -> AMD fTPM Configuration
+- Firmware TPM Switch: Enable Firmware TPM
+- Erase fTPM NV for factory reset: Enabled
+### Advanced -> EUFI Variable Protection
+- Password Protection of Runtime Variables: Enable
+### Advanced -> CPU Configuration
+- PSS Support: Enabled
+- NX Mode: Enabled
+- SVM Mode: Disabled (disables hyper-v dont do this if you do virtualization but it adds memory latency a little bit)
+### Advanced -> PCI Subsystem Timings
+- Above 4G Decoding: Enabled
+- Resize Bar Support: Enabled
+- SR-IOV Support: Disabled
+### Advanced -> USB Configuration
+- Legacy USB Support: Enabled
+- XHCI Hand-off: Enabled
+- USB Mass Storage Driver Support: Enabled
+- USB Single Port Control: Auto
+### Advanced -> Network Stack Configuration
+- Network Stack: Disabled
