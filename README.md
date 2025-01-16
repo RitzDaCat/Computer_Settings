@@ -1,7 +1,7 @@
 # PC Optimization Guide & Settings Collection
 
 ## Overview
-Welcome to my PC settings and optimization collection! This repository serves as a comprehensive guide to various tweaks and optimizations I've tested and implemented. While these settings work well on my system, they should be used as guidelines rather than direct copy-paste solutions.
+The goal of this repository is for me to have a collection of my pc settings as well as record modifications as time progresses. I will list my hardware and settings as well as issues and resolutions in hopes that this is archived and helps folks that stumble upon this on the internet. The goal for my pc is low latency and stability.
 
 ## Repository Structure
 - `/memory/` - RAM timing configurations and stability tests
