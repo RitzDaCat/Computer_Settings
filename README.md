@@ -9,6 +9,17 @@ The goal of this repository is for me to have a collection of my pc settings as 
 - `/windows/` - Windows optimization tweaks
 - `/benchmarks/` - Performance results and comparisons
 
+## Current PC Specs
+- GPU: Nvidia 4090 ASUS STRIX
+- CPU: AMD 9800X3D, SP: 113
+- CPU Cooler: CORSAIR iCUE H170i ELITE LCD Display Liquid CPU Cooler
+- Motherboard: ASUS 870E Hero
+- RAM: CL 30, 6400 G.SKILL
+- SSD: Samsung 990 EVO
+- PSU:FSP Hydro Ti PRO 1000W Computer Power Supply 80 Plus Titanium Full Modular PSU ATX
+- Case: Corsair 7000D
+
+
 ## Purpose
 This repository aims to:
 - Share tested and stable PC optimization settings
