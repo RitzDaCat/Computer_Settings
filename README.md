@@ -13,16 +13,41 @@ The goal of this repository is for me to have a collection of my pc settings as 
 - `/windows/` - Windows optimization tweaks
 - `/tools/` - list of tools I use for benchmarking and troubleshooting
 
-## Current PC Specs
-- GPU: Nvidia 4090 ASUS STRIX
-- CPU: AMD 9800X3D, SP: 113
-- CPU Cooler: CORSAIR iCUE H170i ELITE LCD Display Liquid CPU Cooler
-- Motherboard: ASUS 870E Hero
-- RAM: CL 30, 6400 G.SKILL
-- SSD: Samsung 990 EVO
-- PSU:FSP Hydro Ti PRO 1000W Computer Power Supply 80 Plus Titanium Full Modular PSU ATX
-- Case: Corsair 7000D
+# Main System Configuration
 
+## Core Components
+
+### Processing & Graphics
+| Component | Specification | Additional Info |
+|-----------|---------------|-----------------|
+| CPU | AMD 9800X3D | SP Rating: 113 |
+| GPU | NVIDIA RTX 4090 | Model: ASUS ROG STRIX |
+
+### Motherboard & Memory
+| Component | Specification |
+|-----------|---------------|
+| Motherboard | ASUS X870E Hero |
+| RAM | G.SKILL 6400MHz | CL30 Timings |
+
+### Storage & Power
+| Component | Specification |
+|-----------|---------------|
+| SSD | Samsung 990 EVO |
+| PSU | FSP Hydro Ti PRO 1000W | 80+ Titanium, Full Modular |
+
+### Cooling & Case
+| Component | Specification |
+|-----------|---------------|
+| CPU Cooler | CORSAIR iCUE H170i ELITE LCD |
+| Case | Corsair 7000D |
+
+## Quick Specifications
+```plaintext
+CPU: AMD 9800X3D (SP: 113)
+GPU: ASUS ROG STRIX RTX 4090
+RAM: G.SKILL 6400MHz CL30
+MB:  ASUS X870E Hero
+```
 
 ## Purpose
 This repository aims to:
