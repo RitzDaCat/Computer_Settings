@@ -1,96 +1,103 @@
 # PC Optimization Guide & Settings Collection
 
-## Overview
-The goal of this repository is for me to have a collection of my pc settings as well as record modifications as time progresses. I will list my hardware and settings as well as issues and resolutions in hopes that this is archived and helps folks that stumble upon this on the internet. The goal for my pc is low latency and stability.
+## 🎯 Overview
+The goal of this repository is to maintain a collection of PC settings and modifications for achieving low latency and stability. This documentation serves as both a personal archive and a resource for others seeking similar optimizations.
 
-## Repository Structure
-- `/benchmarks/` - Performance results and comparisons
-- `/bios/` - BIOS settings and configurations
-- `/clients/` - pc's that aren't my own I helped tune.
-- `/issues` -  list of issues i've encountered and resolutions
-- `/memory/` - RAM timing configurations and stability tests
-- `/research` - research items, open to discuss and just writing out my self learning
-- `/windows/` - Windows optimization tweaks
-- `/tools/` - list of tools I use for benchmarking and troubleshooting
+## 💻 Main System Configuration
 
-# Main System Configuration
+### Current Build
+<details>
+<summary>Click to expand full specifications</summary>
 
-## Core Components
-
-### Processing & Graphics
+#### Processing & Graphics
 | Component | Specification | Additional Info |
 |-----------|---------------|-----------------|
 | CPU | AMD 9800X3D | SP Rating: 113 |
 | GPU | NVIDIA RTX 4090 | Model: ASUS ROG STRIX |
 
-### Motherboard & Memory
-| Component | Specification |
-|-----------|---------------|
-| Motherboard | ASUS X870E Hero |
+#### Motherboard & Memory
+| Component | Specification | Details |
+|-----------|---------------|---------|
+| Motherboard | ASUS X870E Hero | |
 | RAM | G.SKILL 6400MHz | CL30 Timings |
 
-### Storage & Power
-| Component | Specification |
-|-----------|---------------|
-| SSD | Samsung 990 EVO |
+#### Storage & Power
+| Component | Specification | Details |
+|-----------|---------------|---------|
+| SSD | Samsung 990 EVO | |
 | PSU | FSP Hydro Ti PRO 1000W | 80+ Titanium, Full Modular |
 
-### Cooling & Case
-| Component | Specification |
-|-----------|---------------|
-| CPU Cooler | CORSAIR iCUE H170i ELITE LCD |
-| Case | Corsair 7000D |
+#### Cooling & Case
+| Component | Specification | Details |
+|-----------|---------------|---------|
+| CPU Cooler | CORSAIR iCUE H170i ELITE LCD | |
+| Case | Corsair 7000D | |
+</details>
 
-## Quick Specifications
-```plaintext
+### Quick Reference
+```ini
 CPU: AMD 9800X3D (SP: 113)
 GPU: ASUS ROG STRIX RTX 4090
 RAM: G.SKILL 6400MHz CL30
 MB:  ASUS X870E Hero
 ```
 
-## Purpose
-This repository aims to:
+## 📁 Repository Structure
+| Directory | Description |
+|-----------|-------------|
+| `/benchmarks/` | Performance results and comparisons |
+| `/bios/` | BIOS settings and configurations |
+| `/clients/` | Configuration for other PCs I've helped optimize |
+| `/issues/` | Documented problems and solutions |
+| `/memory/` | RAM timing configurations and stability tests |
+| `/research/` | Self-learning and discussion topics |
+| `/windows/` | Windows optimization tweaks |
+| `/tools/` | Benchmarking and troubleshooting utilities |
+
+## 🎯 Purpose & Goals
 - Share tested and stable PC optimization settings
-- Provide a reference point for others looking to optimize their systems
-- Document successful configurations for future reference
-- Help others understand the impact of various settings
+- Provide reference points for system optimization
+- Document successful configurations
+- Help others understand setting impacts
 
-## Using This Guide
-1. Review the settings in each section
-2. Understand what each change does
-3. Test changes individually
+## 📚 Usage Guide
+1. Review settings in each section
+2. Understand the purpose of changes
+3. Test modifications individually
 4. Monitor system stability
-5. Adjust based on your specific hardware
+5. Adjust based on specific hardware
 
-## Safety Precautions
-- Always backup important data before making changes
-- Implement changes one at a time
-- Monitor temperatures and system stability
-- Keep track of your original settings
-- Have a plan to revert changes if needed
+## ⚠️ Safety Precautions
+- Backup important data before changes
+- Implement changes incrementally
+- Monitor temperatures and stability
+- Document original settings
+- Prepare rollback procedures
 
-## Contributing
-Your contributions are welcome! If you have:
-- Tested settings to share
-- Improvements to existing configurations
-- Documentation enhancements
-- Bug fixes or corrections
+## 🤝 Contributing
+### Ways to Contribute
+- Share tested settings
+- Improve existing configurations
+- Enhance documentation
+- Fix bugs or errors
 
-Please feel free to:
+### How to Contribute
 - Open an issue for discussion
 - Submit a pull request
-- Share your results and findings
+- Share results and findings
 
-## Issues
-If you encounter issues or have questions:
-- Check the documentation in each section
-- Open an issue with detailed information
-- Share your system specifications when asking for help, I might not be able to help but could attempt to advise
+## ❓ Support
+If you encounter issues:
+1. Check section documentation
+2. Open an issue with details
+3. Include system specifications
 
-## Disclaimer
+## ⚖️ Disclaimer
 These optimizations are provided as-is, without warranty. Users should:
-- Understand that all systems are different
-- Test thoroughly after any changes
-- Accept responsibility for any risks
-- Monitor system health regularly
+- Understand system differences
+- Test thoroughly
+- Accept responsibility
+- Monitor system health
+
+---
+Last Updated: [1/17/2025]
