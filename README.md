@@ -12,14 +12,14 @@ The goal of this repository is to maintain a collection of PC settings and modif
 #### Processing & Graphics
 | Component | Specification | Additional Info |
 |-----------|---------------|-----------------|
-| CPU | AMD 9800X3D | SP Rating: 113 |
+| CPU | AMD 9800X3D | SP Rating: 113 | FCLK 2067 |
 | GPU | NVIDIA RTX 4090 | Model: ASUS ROG STRIX |
 
 #### Motherboard & Memory
 | Component | Specification | Details |
 |-----------|---------------|---------|
 | Motherboard | ASUS X870E Hero | |
-| RAM | G.SKILL 6400MHz | CL30 Timings |
+| RAM | G.SKILL 6400MHz | Running @ 6200 |
 
 #### Storage & Power
 | Component | Specification | Details |
