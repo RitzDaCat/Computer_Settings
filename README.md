@@ -4,11 +4,14 @@
 The goal of this repository is for me to have a collection of my pc settings as well as record modifications as time progresses. I will list my hardware and settings as well as issues and resolutions in hopes that this is archived and helps folks that stumble upon this on the internet. The goal for my pc is low latency and stability.
 
 ## Repository Structure
-- `/memory/` - RAM timing configurations and stability tests
-- `/bios/` - BIOS settings and configurations
-- `/windows/` - Windows optimization tweaks
 - `/benchmarks/` - Performance results and comparisons
-- - `/clients/` - pc's that aren't my own I helped tune.
+- `/bios/` - BIOS settings and configurations
+- `/clients/` - pc's that aren't my own I helped tune.
+- `/issues` -  list of issues i've encountered and resolutions
+- `/memory/` - RAM timing configurations and stability tests
+- `/research` - research items, open to discuss and just writing out my self learning
+- `/windows/` - Windows optimization tweaks
+- `/tools/` - list of tools I use for benchmarking and troubleshooting
 
 ## Current PC Specs
 - GPU: Nvidia 4090 ASUS STRIX
