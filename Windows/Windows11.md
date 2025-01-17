@@ -5,7 +5,7 @@ A comprehensive list of modifications and tweaks applied to enhance Windows 11 p
 ## System Modifications
 
 ### Services Optimizations
-- [ ] Disabled Windows Search
+- [x] Disabled Windows Search
 - [ ] Disabled Windows Update
 - [ ] Disabled SysMain (Superfetch)
 - [ ] Disabled Windows Defender (Use at your own risk)
