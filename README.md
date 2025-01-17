@@ -8,6 +8,7 @@ The goal of this repository is for me to have a collection of my pc settings as 
 - `/bios/` - BIOS settings and configurations
 - `/windows/` - Windows optimization tweaks
 - `/benchmarks/` - Performance results and comparisons
+- - `/clients/` - pc's that aren't my own I helped tune.
 
 ## Current PC Specs
 - GPU: Nvidia 4090 ASUS STRIX
