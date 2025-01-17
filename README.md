@@ -12,7 +12,7 @@ The goal of this repository is to maintain a collection of PC settings and modif
 #### Processing & Graphics
 | Component | Specification | Additional Info |
 |-----------|---------------|-----------------|
-| CPU | AMD 9800X3D | SP Rating: 113 | FCLK 2067 |
+| CPU | AMD 9800X3D | SP Rating: 113, FCLK 2067 |
 | GPU | NVIDIA RTX 4090 | Model: ASUS ROG STRIX |
 
 #### Motherboard & Memory
