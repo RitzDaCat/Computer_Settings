@@ -41,3 +41,6 @@
 - Power Down Enable: Disabled
 - Memory Context Restore: Disabled
 - UCLK DIV1 MODE: UCLK=MEMCLK
+
+## Special Thanks & References
+- https://www.patreon.com/posts/low-effort-rank-77403831
