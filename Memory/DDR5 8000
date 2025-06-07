@@ -1,1 +1,47 @@
+# AMD Ryzen DDR5 Memory Overclock & Timings
+
+This document contains the memory timing settings and system configuration for a stable overclock, verified using RAM Test.
+
+---
+
+### System Configuration
+CPU:         AMD Ryzen 7 9800X3D 8-Core ProcessorMotherboard: ROG CROSSHAIR X870E HEROBIOS:        1504 (98.80)
+---
+
+### Stability Test
+- **Program:** RAM Test
+- **Duration:** 0:04:02:38
+- **Coverage:** 11841 %
+- **Errors:** 0
+
+---
+
+### Memory Timings (from ZenTimings 1.35)
+
+| Timing      | Value    | Timing       | Value    | Setting        | Value      |
+| :---------- | :------- | :----------- | :------- | :------------- | :--------- |
+| **Speed** | 8000 MT/s| **MCLK** | N/A      | **BGS** | Enabled    |
+| **BGS ALT** | Disabled | **FCLK** | N/A      | **GDM** | Enabled    |
+| **Cmd2T** | 1T       | **UCLK** | N/A      |                |            |
+|             |          |              |          |                |            |
+| **tCL** | 36       | **tRDRDSCL** | 8        | **VSOC (SMU)** | N/A        |
+| **tRCDWR** | 46       | **tWRWRSCL** | 16       | **CLDO VDDP** | N/A        |
+| **tRCDRD** | 46       | **tCWL** | 34       | **VDDG CCD** | N/A        |
+| **tRP** | 40       | **tRTP** | 12       | **VDDG IOD** | N/A        |
+| **tRAS** | 46       | **tRDWR** | 16       | **MEM VDD** | N/A        |
+| **tRC** | 88       | **tWRRD** | 2        | **MEM VDDQ** | N/A        |
+| **tRRDS** | 4        | **tRDRDSC** | 1        | **CPU VDDIO** | N/A        |
+| **tRRDL** | 4        | **tRDRDSD** | 8        | **MEM VPP** | N/A        |
+| **tFAW** | 16       | **tRDRDDD** | 8        | **VDD MISC** | N/A        |
+| **tWTRS** | 4        | **tWRWRSC** | 1        |                |            |
+| **tWTRL** | 20       | **tWRWRSD** | 8        | **ProcOdt** | N/A        |
+| **tWR** | 48       | **tWRWRDD** | 8        | **ProcCads** | N/A        |
+| **tRFC (ns)** | 125    | **tCKE** | 0        | **ProcDqs** | N/A        |
+| **tRFC** | 500      | **tREFI** | 65535    | **DramDqDs** | N/A        |
+| **tRFC2** | 400      | **tREFI (ns)** | 16383.75 |                |            |
+| **tRFCsb** | 300      | **tSTAG** | 7        | **RttNomWr** | N/A        |
+| **tMOD** | 56       | **tMRD** | 56       | **RttNomRd** | N/A        |
+| **tMODPDA** | 32       | **tMRDPDA** | 32       | **RttWr** | N/A        |
+| **tPHYWRD** | 6        | **tPHYRDL** | 38       | **RttPark** | N/A        |
+| **tPHYWRL** | 22       | **PowerDown**| Disabled | **RttParkDqs** | N/A        |
 
