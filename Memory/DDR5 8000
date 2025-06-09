@@ -1,47 +1,67 @@
-# AMD Ryzen DDR5 Memory Overclock & Timings
+# RAM Overclock Settings
 
-This document contains the memory timing settings and system configuration for a stable overclock, verified using RAM Test.
-
----
-
-### System Configuration
-CPU:         AMD Ryzen 7 9800X3D 8-Core ProcessorMotherboard: ROG CROSSHAIR X870E HEROBIOS:        1504 (98.80)
----
-
-### Stability Test
-- **Program:** RAM Test
-- **Duration:** 0:04:02:38
-- **Coverage:** 11841 %
-- **Errors:** 0
+Here are my current RAM timings and settings.
 
 ---
 
-### Memory Timings (from ZenTimings 1.35)
+## General
+| Setting       | Value      |
+| :------------ | :--------- |
+| **Speed** | 8000 MT/s  |
+| **Cmd2T** | 1T         |
+| **GDM** | Enabled    |
+| **PowerDown** | Disabled   |
+| **BGS** | Enabled    |
+| **BGS ALT** | Disabled   |
 
-| Timing      | Value    | Timing       | Value    | Setting        | Value      |
-| :---------- | :------- | :----------- | :------- | :------------- | :--------- |
-| **Speed** | 8000 MT/s| **MCLK** | N/A      | **BGS** | Enabled    |
-| **BGS ALT** | Disabled | **FCLK** | N/A      | **GDM** | Enabled    |
-| **Cmd2T** | 1T       | **UCLK** | N/A      |                |            |
-|             |          |              |          |                |            |
-| **tCL** | 36       | **tRDRDSCL** | 8        | **VSOC (SMU)** | N/A        |
-| **tRCDWR** | 46       | **tWRWRSCL** | 16       | **CLDO VDDP** | N/A        |
-| **tRCDRD** | 46       | **tCWL** | 34       | **VDDG CCD** | N/A        |
-| **tRP** | 40       | **tRTP** | 12       | **VDDG IOD** | N/A        |
-| **tRAS** | 46       | **tRDWR** | 16       | **MEM VDD** | N/A        |
-| **tRC** | 88       | **tWRRD** | 2        | **MEM VDDQ** | N/A        |
-| **tRRDS** | 4        | **tRDRDSC** | 1        | **CPU VDDIO** | N/A        |
-| **tRRDL** | 4        | **tRDRDSD** | 8        | **MEM VPP** | N/A        |
-| **tFAW** | 16       | **tRDRDDD** | 8        | **VDD MISC** | N/A        |
-| **tWTRS** | 4        | **tWRWRSC** | 1        |                |            |
-| **tWTRL** | 20       | **tWRWRSD** | 8        | **ProcOdt** | N/A        |
-| **tWR** | 48       | **tWRWRDD** | 8        | **ProcCads** | N/A        |
-| **tRFC (ns)** | 125    | **tCKE** | 0        | **ProcDqs** | N/A        |
-| **tRFC** | 500      | **tREFI** | 65535    | **DramDqDs** | N/A        |
-| **tRFC2** | 400      | **tREFI (ns)** | 16383.75 |                |            |
-| **tRFCsb** | 300      | **tSTAG** | 7        | **RttNomWr** | N/A        |
-| **tMOD** | 56       | **tMRD** | 56       | **RttNomRd** | N/A        |
-| **tMODPDA** | 32       | **tMRDPDA** | 32       | **RttWr** | N/A        |
-| **tPHYWRD** | 6        | **tPHYRDL** | 38       | **RttPark** | N/A        |
-| **tPHYWRL** | 22       | **PowerDown**| Disabled | **RttParkDqs** | N/A        |
+---
 
+## Voltages & Impedance
+**Note:** *Specific values were not provided and are marked as N/A.*
+
+| Setting      | Value | Setting      | Value |
+| :----------- | :---- | :----------- | :---- |
+| **MEM VDD** | N/A   | **ProcOdt** | N/A   |
+| **MEM VDDQ** | N/A   | **RttNomWr** | N/A   |
+| **MEM VPP** | N/A   | **RttNomRd** | N/A   |
+| **VSOC** | N/A   | **RttWr** | N/A   |
+| **CLDO VDDP**| N/A   | **RttPark** | N/A   |
+| **VDDG CCD** | N/A   | **CPU VDDIO**| N/A   |
+| **VDDG IOD** | N/A   | **VDD MISC** | N/A   |
+
+
+---
+
+## Primary Timings
+| Timing | Value |
+| :----- | :---- |
+| **tCL**| 36    |
+| **tRCDRD**| 46 |
+| **tRCDWR**| 46 |
+| **tRP**| 40    |
+| **tRAS**| 46    |
+| **tRC**| 88    |
+
+---
+
+## Secondary Timings
+| Timing | Value | Timing | Value |
+| :----- | :---- | :----- | :---- |
+| **tRRDS** | 4     | **tWTRS** | 4     |
+| **tRRDL** | 4     | **tWTRL** | 20    |
+| **tFAW** | 16    | **tWR** | 48    |
+| **tCWL** | 34    | **tRTP** | 12    |
+
+---
+
+## Tertiary Timings & Refresh
+| Timing        | Value    | Timing        | Value    |
+| :------------ | :------- | :------------ | :------- |
+| **tRFC (ns)** | 125      | **tRDRDSCL** | 8        |
+| **tRFC** | 500      | **tWRWRSCL** | 16       |
+| **tRFC2** | 400      | **tRDWR** | 16       |
+| **tRFCsb** | 300      | **tWRRD** | 2        |
+| **tREFI** | 65535    | **tRDRDSC** | 1        |
+| **tCKE** | 0        | **tWRWRSC** | 1        |
+| **tRDRDSD** | 8        | **tWRWRSD** | 8        |
+| **tRDRDDD** | 8        | **tWRWRDD** | 8        |
